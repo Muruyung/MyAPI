@@ -16,6 +16,8 @@ This project has  4 Domain layer :
  * [JWT](https://github.com/dgrijalva/jwt-go)
  * [bcrypt](https://golang.org/x/crypto/bcrypt)
 
+## Database
+### 📄 [Database File](https://github.com/Muruyung/MyAPI/tree/master/SQL)
 ### 📚 [Database Config](https://github.com/Muruyung/MyAPI/blob/master/config/config.go)
 
 ## Documentation API
