@@ -42,25 +42,34 @@ POST Method is a method used to run update queries against user data
 
 ### DELETE Method
 POST Method is a method used to run delete queries against user data
-#### POST Method used in Postman:
+#### DELETE Method used in Postman:
 ![delete_method_postman](https://raw.githubusercontent.com/Muruyung/MyAPI/master/dokumentasi%20API/Postman-Delete%20User.png)
-#### POST Method result in PostgreSQL:
+#### DELETE Method result in PostgreSQL:
 ![delete_method_navicat](https://github.com/Muruyung/MyAPI/blob/master/dokumentasi%20API/Navicat-Delete%20User.png?raw=true)
 
 ### LOGIN Method
 LOGIN Method is a method used to generate token and set online againts user data
 #### LOGIN Method used in Postman:
 ![login_method_postman](https://github.com/Muruyung/MyAPI/blob/master/dokumentasi%20API/Postman-Login%20User%20(Get%20Token).png?raw=true)
-#### POST Method result in PostgreSQL (Set Online User):
+#### LOGIN Method result in PostgreSQL (Set Online User):
 ![login_method_navicat](https://github.com/Muruyung/MyAPI/blob/master/dokumentasi%20API/Navicat-Set%20Online%20User.png?raw=true)
-#### POST Method result in PostgreSQL (Save Token):
+#### LOGIN Method result in PostgreSQL (Save Token):
 ![login_method_navicat](https://github.com/Muruyung/MyAPI/blob/master/dokumentasi%20API/Navicat-Save%20Token.png?raw=true)
 
 ### LOGOUT Method
 LOGOUT Method is a method used to revoke token againts and set offline user data
 #### LOGIN Method used in Postman:
 ![logout_method_postman](https://github.com/Muruyung/MyAPI/blob/master/dokumentasi%20API/Postman-Logout%20User%20(Set%20Offline).png?raw=true)
-#### POST Method result in PostgreSQL (Set Offline User):
+#### LOGOUT Method result in PostgreSQL (Set Offline User):
 ![logout_method_navicat](https://github.com/Muruyung/MyAPI/blob/master/dokumentasi%20API/Navicat-Set%20Offline%20User.png?raw=true)
-#### POST Method result in PostgreSQL (Delete Token):
+#### LOGOUT Method result in PostgreSQL (Delete Token):
 ![logout_method_navicat](https://github.com/Muruyung/MyAPI/blob/master/dokumentasi%20API/Navicat-Revoke%20Token.png?raw=true)
+
+### SIGNUP Method
+SIGNUP Method is like POST Method
+#### SIGNUP Method used in Postman:
+![signup_method_postman](https://github.com/Muruyung/MyAPI/blob/master/dokumentasi%20API/Postman-Signup.png?raw=true)
+#### SIGNUP Method result in PostgreSQL:
+![signup_method_navicat](https://github.com/Muruyung/MyAPI/blob/master/dokumentasi%20API/Navicat-Signup%20User.png?raw=true)
+#### SIGNUP Method result in PostgreSQL (Create Token Dataset):
+![signup_method_navicat](https://github.com/Muruyung/MyAPI/blob/master/dokumentasi%20API/Navicat-Signup%20User%20(Create%20Token%20Dataset).png?raw=true)
