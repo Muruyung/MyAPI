@@ -32,3 +32,35 @@ This method has 2 method variations. There are GET List and GET by ID
 ![get_list_method_postman](https://github.com/Muruyung/MyAPI/blob/master/dokumentasi%20API/Postman-Get%20List%20User.png?raw=true)
 #### GET by ID used in Postman:
 ![get_by_id_postman](https://github.com/Muruyung/MyAPI/blob/master/dokumentasi%20API/Postman-Get%20by%20ID%20User.png?raw=true)
+
+### PUT Method
+POST Method is a method used to run update queries against user data
+#### PUT Method used in Postman:
+![put_method_postman](https://raw.githubusercontent.com/Muruyung/MyAPI/master/dokumentasi%20API/Postman-Put%20User.png)
+#### PUT Method result in PostgreSQL:
+![put_method_navicat](https://github.com/Muruyung/MyAPI/blob/master/dokumentasi%20API/Navicat-Put%20User.png?raw=true)
+
+### DELETE Method
+POST Method is a method used to run delete queries against user data
+#### POST Method used in Postman:
+![delete_method_postman](https://raw.githubusercontent.com/Muruyung/MyAPI/master/dokumentasi%20API/Postman-Delete%20User.png)
+#### POST Method result in PostgreSQL:
+![delete_method_navicat](https://github.com/Muruyung/MyAPI/blob/master/dokumentasi%20API/Navicat-Delete%20User.png?raw=true)
+
+### LOGIN Method
+LOGIN Method is a method used to generate token and set online againts user data
+#### LOGIN Method used in Postman:
+![login_method_postman](https://github.com/Muruyung/MyAPI/blob/master/dokumentasi%20API/Postman-Login%20User%20(Get%20Token).png?raw=true)
+#### POST Method result in PostgreSQL (Set Online User):
+![login_method_navicat](https://github.com/Muruyung/MyAPI/blob/master/dokumentasi%20API/Navicat-Set%20Online%20User.png?raw=true)
+#### POST Method result in PostgreSQL (Save Token):
+![login_method_navicat](https://github.com/Muruyung/MyAPI/blob/master/dokumentasi%20API/Navicat-Save%20Token.png?raw=true)
+
+### LOGOUT Method
+LOGOUT Method is a method used to revoke token againts and set offline user data
+#### LOGIN Method used in Postman:
+![logout_method_postman](https://github.com/Muruyung/MyAPI/blob/master/dokumentasi%20API/Postman-Logout%20User%20(Set%20Offline).png?raw=true)
+#### POST Method result in PostgreSQL (Set Offline User):
+![logout_method_navicat](https://github.com/Muruyung/MyAPI/blob/master/dokumentasi%20API/Navicat-Set%20Offline%20User.png?raw=true)
+#### POST Method result in PostgreSQL (Delete Token):
+![logout_method_navicat](https://github.com/Muruyung/MyAPI/blob/master/dokumentasi%20API/Navicat-Revoke%20Token.png?raw=true)
