@@ -26,3 +26,9 @@ POST Method is a method used to run input queries against user data
 #### POST Method result in PostgreSQL:
 ![post_method_navicat](https://github.com/Muruyung/MyAPI/blob/master/dokumentasi%20API/Navicat-Post%20User.png?raw=true)
 
+### GET Method
+This method has 2 method variations. There are GET List and GET by ID
+#### GET List used in Postman:
+![get_list_method_postman](https://github.com/Muruyung/MyAPI/blob/master/dokumentasi%20API/Postman-Get%20List%20User.png?raw=true)
+#### GET by ID used in Postman:
+![get_by_id_postman](https://github.com/Muruyung/MyAPI/blob/master/dokumentasi%20API/Postman-Get%20by%20ID%20User.png?raw=true)
