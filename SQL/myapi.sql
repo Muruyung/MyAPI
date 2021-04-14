@@ -21,6 +21,23 @@ SET default_tablespace = '';
 SET default_table_access_method = heap;
 
 --
+-- Name: todo; Type: TABLE; Schema: public; Owner: postgres
+--
+
+CREATE TABLE public.todo (
+    id bigint NOT NULL,
+    id_user bigint NOT NULL,
+    name character varying(255) NOT NULL,
+    description character varying(255) NOT NULL,
+    created_at timestamp(6) without time zone,
+    updated_at timestamp without time zone,
+    deleted_at timestamp without time zone
+);
+
+
+ALTER TABLE public.todo OWNER TO postgres;
+
+--
 -- Name: token; Type: TABLE; Schema: public; Owner: postgres
 --
 
@@ -47,6 +64,16 @@ CREATE TABLE public."user" (
 
 
 ALTER TABLE public."user" OWNER TO postgres;
+
+--
+-- Data for Name: todo; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public.todo (id, id_user, name, description, created_at, updated_at, deleted_at) FROM stdin;
+1618369607764	1618325974107	Ngoding Android	Fullstack	2021-04-14 10:06:47	2021-04-14 10:07:59	\N
+1618369471649	0	Ngoding Aja we	created API	2021-04-14 10:04:31	2021-04-14 10:05:34	\N
+\.
+
 
 --
 -- Data for Name: token; Type: TABLE DATA; Schema: public; Owner: postgres
@@ -82,6 +109,14 @@ ALTER TABLE ONLY public."user"
 
 ALTER TABLE ONLY public."user"
     ADD CONSTRAINT id UNIQUE (id);
+
+
+--
+-- Name: todo todo_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.todo
+    ADD CONSTRAINT todo_pkey PRIMARY KEY (id);
 
 
 --
