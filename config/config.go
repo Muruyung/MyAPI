@@ -12,7 +12,7 @@ func DBCONFIG() string {
 	host := "localhost"
 	port := "5432"
 	user := "postgres"
-	pass := ""
+	pass := "titik.8kali"
 	dbname := "myapi"
 	ssl := "disable"
 
